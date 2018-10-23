@@ -3,3 +3,5 @@
 ## 2. npm引入包，build报错:uglyfyjs，因为引入的包不规范，使用的es6实现，uglyfy发行版只支持es5
 
 ## 3. npm install出现”Unexpected end of JSON input while parsing near”的错误。 运行 npm cache clean --force。
+
+## 4. fastclick input需要连击两次，加targetElement.focus（）https://blog.csdn.net/xz370057448/article/details/82842774
