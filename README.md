@@ -5,3 +5,5 @@
 ## 3. npm install出现”Unexpected end of JSON input while parsing near”的错误。 运行 npm cache clean --force。
 
 ## 4. fastclick input需要连击两次，加targetElement.focus（）https://blog.csdn.net/xz370057448/article/details/82842774
+
+## 5. 而是在修改（不是替换）对象或数组时，旧值将与新值相同，因为它们索引同一个对象/数组。Vue 不会保留修改之前值的副本。
